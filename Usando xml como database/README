@@ -1,0 +1,7 @@
+Sistema focado no uso de arquivos XML como database,explorando funções de Cadastro,Consulta,Registrar e Login 
+mantendo a consistência de dados.
+
+Iniciar pelo index.php 
+
+Utilizar MAMP/XAMP, colar arquivos na pasta htdocs.
+ no navegador: localhost/index.php

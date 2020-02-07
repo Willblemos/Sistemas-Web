@@ -1,0 +1,664 @@
+
+body{
+	margin: 0;
+	background-attachment: fixed;
+	background-size: 100%;
+	height: 100%;
+	z-index: 1;
+	overflow-x: hidden;
+	background-image:url('imga/banner.jpg');
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+li {
+	float: left;
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #111;
+}
+
+
+button {
+	background-repeat: no-repeat;
+	border: none;
+	width: 100%;
+	height: 100%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	margin-top: 8%;
+}
+table{
+	align-content: center;
+}
+table, th, td {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: rgba(61, 58, 58, 0.735);
+	font-size: 20px;
+}
+
+#tabela-cima{
+	color: white;
+	display: block;
+	float: right;
+	width: 30%;
+	margin:  80% 70%;
+	border: 2px solid white;
+	padding: 30px;
+}
+
+.tabela-baixo{
+	color: white;
+	display: block;
+	float: right;
+	width: 60%;
+	top: 30%;
+	margin:  80% 70%;
+	border: 2px solid white;
+	padding: 70px;
+}
+
+.menu{
+	position: fixed;
+}
+
+.meta-texto{
+	width: 50%;
+	padding: 0px 20px 20px 20px;
+	color: white;
+	background-color: rgba(61, 58, 58, 0.735);
+	border-radius: 10px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	margin: 8% 0% 8% 8%;
+	display: block;
+	float: left;
+}
+
+.interface{
+	width: 100%;
+    font-family: 'Open Sans', sans-serif;
+	font-size: 98%;
+}
+
+
+.sobre{
+	width: 40%;
+	padding: 0px 20px 20px 20px;
+	color: white;
+	background-color: rgba(30, 28, 28, 0.9);
+	border-radius: 10px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	display: block;
+	float: left;
+	margin: 8% 0% 0% 5%;
+}
+
+.competitivo{
+	width: 40%;
+	padding: 0px 20px 20px 20px;
+	display: block;
+	float: right;
+	color: white;
+	background-color: rgba(30, 28, 28, 0.9);
+	border-radius: 10px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	margin: 8% 5% 0% 0%;
+}
+
+.regras{
+	width: 88%;
+	display: block;
+	padding: 0px 20px 20px 20px;
+	float: left;
+	color: white;
+	background-color: rgba(30, 28, 28, 0.9);
+	border-radius: 10px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	margin: 5% 5% 5% 5%;
+}
+
+.img-logo{
+	width: 40px;
+}
+
+.heros{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.hero-leg{
+	color: rgba(255, 255, 255, 0);
+	font-size: 28px;
+	padding: 25% 0%;
+	font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.hero-leg:hover{
+	color:white;
+	transition: 2s;
+	font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.historia-but{
+	cursor: pointer;
+	position: absolute;
+	top:50%;
+	width: 30%;
+	height: 30%;
+	background-image: url(imga/historia.png);
+	background-size: contain;
+	left: 5%;
+}
+
+.historia-but:hover{
+	opacity: .6;
+	transition: opacity 2s;
+}
+
+.med-but{
+	cursor: pointer;
+	position: absolute;
+	top: 12%;
+	left: 15%;
+	width: 8.5%;
+	height: 19%;
+	background-image: url(imga/DocButton.png);
+	background-size: contain;
+	left: 5%;
+}
+
+.med-but:hover{
+	opacity: .6;
+	transition: opacity 2s;
+}
+
+.adm-but{
+	cursor: pointer;
+	position: absolute;
+	top: 12%;
+	left: 30%;
+	width: 9%;
+	height: 19%;
+	background-image: url(imga/AdmButton.png);
+	background-size: contain;
+}
+
+.adm-but:hover{
+	opacity: .8;
+	transition: opacity 2s;
+}
+
+.client-but{
+	cursor: pointer;
+	position: absolute;
+	top: 12%;
+	left: 50%;
+	width: 8.8%;
+	height: 19%;
+	background-image: url(imga/ClientButton.png);
+	background-size: contain;
+} 
+
+.client-but:hover{
+	opacity: .8;
+	transition: opacity 2s;
+}
+
+.lab-but{
+	cursor: pointer;
+	position: absolute;
+	top: 12%;
+	left: 70%;
+	width: 8.6%;
+	height: 19%;
+	background-image: url(imga/LabButton.png);
+	background-size: contain;
+}
+
+.lab-but:hover{
+	opacity: .6;
+	transition: opacity 2s;
+}
+
+.cons-but{
+	cursor: pointer;
+	position: absolute;
+	top: 35%;
+	left: 20%;
+	width: 17%;
+	height: 30%;
+	background-image: url(imga/Hpaciente.png);
+	background-size: contain;
+}
+
+.cons-but:hover{
+	opacity: .6;
+	transition: opacity 2s;
+}
+
+.registrar-but{
+	cursor: pointer;
+	position: absolute;
+	top: 35%;
+	left: 38%;
+	width: 17%;
+	height: 30%;
+	background-image: url(imga/Rconsulta.png);
+	background-size: contain;
+}
+
+.registrar-but:hover{
+	opacity: .6;
+	transition: opacity 2s;
+}
+
+.registrarE-but{
+	cursor: pointer;
+	position: absolute;
+	top: 35%;
+	left: 38%;
+	width: 17%;
+	height: 30%;
+	background-image: url(imga/Rexame.png);
+	background-size: contain;
+}
+
+.registrarE-but:hover{
+	opacity: .6;
+	transition: opacity 2s;
+}
+
+
+.Epac-but{
+	cursor: pointer;
+	position: absolute;
+	top: 35%;
+	left: 38%;
+	width: 17%;
+	height: 30%;
+	background-image: url(imga/Epac.png);
+	background-size: contain;
+	
+}
+.Epac-but:hover{
+	opacity: .6;
+	transition: opacity 2s;
+}
+
+
+.Cpac-but{
+	cursor: pointer;
+	position: absolute;
+	top: 35%;
+	left: 20%;
+	width: 17%;
+	height: 30%;
+	background-image: url(imga/Cpac.png);
+	background-size: contain;
+	
+}
+
+.Cpac-but:hover{
+	opacity: .6;
+	transition: opacity 2s;
+}
+
+.alterar-but{
+	cursor: pointer;
+	position: absolute;
+	top: 35%;
+	left: 56%;
+	width: 17%;
+	height: 30%;
+	background-image: url(imga/Acadastro.png);
+	background-size: contain;
+}
+
+.alterar-but:hover{
+	opacity: .6;
+	transition: opacity 2s;
+}
+
+.regmed-but{
+	cursor: pointer;
+	position: absolute;
+	top: 3%;
+	left: 56%;
+	width: 17%;
+	height: 30%;
+	background-image: url(imga/regmed.png);
+	background-size: contain;
+	
+}
+
+.redmed-but:hover{
+	opacity: .6;
+	transition: opacity 2s;
+}
+
+.regpac-but{
+	cursor: pointer;
+	position: absolute;
+	top: 3%;
+	left: 37%;
+	width: 17%;
+	height: 30%;
+	background-image: url(imga/regpac.png);
+	background-size: contain;
+	
+}
+
+.regpac-but:hover{
+	opacity: .6;
+	transition: opacity 2s;
+}
+
+.reglab-but{
+	cursor: pointer;
+	position: absolute;
+	top: 35%;
+	left: 37%;
+	width: 17%;
+	height: 30%;
+	background-image: url(imga/reglab.png);
+	background-size: contain;
+	
+}
+
+.reglab-but:hover{
+	opacity: .6;
+	transition: opacity 2s;
+}
+
+.logout-but{
+	cursor: pointer;
+	position: absolute;
+	top: 66%;
+	left: 82%;
+	width: 20%;
+	height: 10%;
+	background-image: url(imga/logout.png);
+	background-size: contain;
+}
+
+input[type=text], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=email], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=password], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=cpf], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=ende], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=tel], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+	width: 40%;
+	background-color:#1ab188;
+	color: white;
+	padding: 14px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-left: 5%;
+	margin-bottom: 10%;
+	display: block;
+	float: left;
+}
+
+input[type=submit]:hover {
+	background-color: #7794ce;
+	transition: 2s;
+}
+
+input[type=button]{
+	width: 40%;
+	background-color: rgb(123, 116, 116);
+	color: white;
+	padding: 14px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	display: block;
+	float: right;
+	margin-right: 5%;
+}
+
+input[type=button]:hover {
+	background-color: #060707;
+	transition: 2s;
+}
+
+.formulario {
+	width: 20%;
+	border-radius: 9px;
+	background-color: rgba(19, 35, 47, 0.9);
+	padding: 18px;
+	margin-left: 5%;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	display: block;
+	float: left;
+}
+
+.register {
+	width: 30%;
+	height : 30%;
+	border-radius: 9px;
+	background-color: rgba(19, 35, 47, 0.9);
+	padding: 70px;
+	margin-left: 40%;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	display: block;
+	float: left;
+}
+
+.rform {
+	width: 35%;
+	height : 10%;
+	border-radius: 9px;
+	background-color: rgba(19, 35, 47, 0.9);
+	padding: 10px;
+	margin-left: 30%;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	display: block;
+	float: left;
+}
+
+.consform {
+	width: 30%;
+	height : 30%;
+	border-radius: 9px;
+	background-color: rgba(19, 35, 47, 0.9);
+	padding: 70px;
+	margin-left: 60%;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	display: block;
+	float: left;
+}
+
+.eform {
+	width: 30%;
+	height : 50%;
+	border-radius: 9px;
+	background-color: rgba(19, 35, 47, 0.9);
+	padding: 30px;
+	margin-left: 5%;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	display: block;
+	float: left;
+}
+
+.aconsulta {
+	width: 20%;
+	border-radius: 9px;
+	background-color:#ABDBE3;
+	padding: 18px;
+	margin-left: 38%;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	display: block;
+	float: left;
+}
+
+.tabcons {
+	
+	width: 20%;
+	border-radius: 9px;
+	background-color:#ABDBE3;
+	padding: 18px;
+	margin-left: 38%;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	display: block;
+	float: left;
+	top: 1%;
+}
+
+.login{
+	display: block;
+	float: left;
+	width: 20%;
+	border-radius: 9px;
+	background-color: #383838;
+	padding: 18px;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-left: 5%;
+}
+
+.vertical-menu {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	display: block;
+	float: right;
+	left: 0; right: 0;
+	width: 13%;
+	margin-top: 0px;
+}
+
+.vertical-menu a {
+	background-color: rgba(111, 104, 104, 0.823);
+	color: white;
+	display: block;
+	padding: 12px;
+	text-decoration: none;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+	text-align: center
+}
+
+.vertical-menu a:hover {
+	background-color: #ccc;
+}
+
+.vertical-menu a.active {
+	background-color: rgb(164, 54, 54);
+	color: white;
+}
+
+footer{
+	left: 0; right: 0; bottom: 0;
+	width: 100%; height: 5%;
+	text-align: center;
+	background-color: rgba(93, 100, 108, 0.564);
+	font-size: 20px;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	position: fixed;
+}
+
+.hero-class{
+	padding: 0px 20px 20px 20px;
+	color: white;
+	background-color: rgba(30, 28, 28, 0.544);
+	border-radius: 10px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	display: block;
+	float: right;
+	margin: 10% 1% 1% 1%;
+	width: 40%;
+}
